@@ -1,0 +1,7 @@
+interface:
+  display_name: "Plan Review Commit"
+  short_description: "Plan, review, verify, and optionally commit repo work"
+  default_prompt: "Use $repo-plan-review-commit to plan this change, implement it, and verify the result."
+
+policy:
+  allow_implicit_invocation: true
